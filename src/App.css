@@ -7,10 +7,119 @@
   margin: 10px 0 20px;
 }
 
-.container {
+.main-container {
   padding: 5%;
   background-image: url("./assets/Login-Signup-Background.png");
   height: 100%;
   background-size: cover;
   background-position: bottom;
+}
+
+.pfp {
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* align-items: center;
+  justify-content: center;
+ 
+  align-self: center;
+  display: block;
+  
+  margin: auto; */
+}
+
+.usertext {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.pfpbg {
+  padding: 5%;
+  background-image: url("./assets/pfpbg.png");
+  height: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.colcss {
+  margin-left: 20px;
+  padding-top: 25px;
+}
+
+.contain {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.profiletext {
+  font-size: 14px;
+}
+
+.postspic {
+  height: 55px;
+  margin-right: 0px;
+  padding-right: 0px;
+  width: "100%";
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.plus {
+  height: 100%;
+  padding-top: 20px;
+}
+
+.homePage {
+  background-image: url("./assets/WelcomeScreenBackground.png");
+  height: 100%;
+  background-size: cover;
+  background-position: bottom;
+  width: 100% !important;
+  padding: 0 15%;
+}
+
+.smallLogo {
+  width: 150px;
+  height: 150px;
+  margin: 20% auto 5%;
+}
+
+.small-logo-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.welcome-to-edube {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.visual-social {
+  color: black !important;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+}
+
+.cornerLogo {
+  width: 70px !important;
+  height: 60px;
+}
+
+.searchBarForm {
+  width: 200px !important;
 }

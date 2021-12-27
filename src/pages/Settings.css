@@ -1,0 +1,41 @@
+h1{
+    
+    color: rgb(250, 136, 14);
+   
+
+}
+
+/* .col1{
+    float : left;
+    width : 50%;
+    text-align: left;
+    
+    
+}
+
+.col2{
+    float : right;
+    width : 50%;
+    color:grey;
+    text-align: right;
+    
+    
+}
+.row:after{
+    content: "";
+    clear: both;
+    display: table;
+    
+} */
+
+.containerl{
+    /*
+    margin-right:20px; */
+    margin-left:5px;
+    margin-top:10px;
+    padding-top:20px;
+
+}
+h1{
+    margin-left: 10px;
+}

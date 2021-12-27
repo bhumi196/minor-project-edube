@@ -11,7 +11,7 @@ const Register = () => {
     const [pass, setPass] = useState("")
 
     return (
-        <div className="container">
+        <div className="main-container">
             <img src={imageConstants.logo} alt="logo" className="logo" />
             <Card>
                 <FormContainer>
@@ -23,7 +23,7 @@ const Register = () => {
                     <TextInput type="text" value={pass} placeholder="Password" onChange={(text) => { setPass(text) }} />
                     <TextInput type="text" value={pass} placeholder="Confirm Password" onChange={(text) => { setPass(text) }} />
                     <Button type="button" value="Register" className="mt-3">Sign Up</Button>
-                    <SmallText style={{ margin: "3% auto" }}>Already have an account? <Link to="./login">LOG IN</Link></SmallText>
+                    <SmallText style={{ margin: "3% auto" }}>Already have an account? <Link to="/login">LOG IN</Link></SmallText>
 
                 </FormContainer>
             </Card>

@@ -8,7 +8,7 @@ const Login = () => {
     const [pass, setPass] = useState("")
 
     return (
-        <div className="container">
+        <div className="main-container">
             <img src={imageConstants.logo} alt="logo" className="logo" />
             <Card>
                 <FormContainer>
@@ -16,7 +16,7 @@ const Login = () => {
                     <TextInput type="text" value={pass} placeholder="Password" onChange={(text) => { setPass(text.target.value) }} />
                     <SmallText style={{ textAlign: "right" }}>Forgot Password?</SmallText>
                     <Button type="button" value="Login" >Log In</Button>
-                    <SmallText style={{ margin: "3% auto" }}>Don't have an account? <Link to="./register">SIGN UP</Link></SmallText>
+                    <SmallText style={{ margin: "3% auto" }}>Don't have an account? <Link to="/register">SIGN UP</Link></SmallText>
                 </FormContainer>
             </Card>
         </div>
