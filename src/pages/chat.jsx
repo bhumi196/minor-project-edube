@@ -1,4 +1,4 @@
-const Upload = () =>{
+const Chat = () =>{
     return(
         <div>
             <h3>Soon to be Done......</h3>
@@ -6,4 +6,4 @@ const Upload = () =>{
     )
 }
 
-export default Upload
+export default Chat
